@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mars Waste Hub – {{TITLE}}</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="nav">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="logo"></span><span>Mars Waste Hub</span></a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="robots.html">Robots Status</a>
+        <a href="fabrics.html">Fabrics</a>
+        <a href="metals.html">Metals</a>
+        <a href="plastics.html">Plastics</a>
+        <a href="food-packaging.html">Food Packaging</a>
+        <a href="foam-packaging.html">Foam Packaging</a>
+        <a href="eva.html">EVA</a>
+        <a href="structural-elements.html">Structural Elements</a>
+        <a href="dashboard.html">Dashboard</a>
+      </nav>
+    </div>
+  </div>
+  <main class="container-main">
+    <div class="page-title">
+      <h1>{{TITLE}} Recycling</h1>
+      <span class="subtitle">System design and performance</span>
+    </div>
+    <section class="grid">
+      <div class="col-8">
+        <div class="card">
+          <h3>System Design</h3>
+          <img class="media" src="assets/img/placeholder-process.svg" alt="Process placeholder">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3>Overview</h3>
+          <p class="muted">{{DESC}}</p>
+          <div class="spacer"></div>
+          <div class="kpi">
+            <div class="item"><div class="label">Collected</div><div class="value">{{COLLECTED}}</div></div>
+            <div class="item"><div class="label">Recovery Eff.</div><div class="value">{{EFF}}</div></div>
+            <div class="item"><div class="label">Energy Use</div><div class="value">{{ENERGY}}</div></div>
+            <div class="item"><div class="label">Output</div><div class="value">{{OUTPUT}}</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card">
+          <h3>Notes</h3>
+          <p class="muted">This page is a static mock. All numbers are illustrative for the concept UI.</p>
+        </div>
+      </div>
+    </section>
+    <div class="footer">Concept UI – No live data</div>
+  </main>
+</body>
+</html>
+
+
+

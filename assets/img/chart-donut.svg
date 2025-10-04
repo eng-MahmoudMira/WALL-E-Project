@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" rx="16" fill="#0b1020"/>
+  <g transform="translate(300,200)">
+    <circle r="110" fill="#1a2238"/>
+    <circle r="80" fill="#0b1020"/>
+    <path d="M0 -110 A 110 110 0 0 1 104 35 L 76 26 A 80 80 0 0 0 0 -80 Z" fill="#7aa2ff"/>
+    <path d="M104 35 A 110 110 0 0 1 -40 102 L -29 74 A 80 80 0 0 0 76 26 Z" fill="#4dd0e1"/>
+    <path d="M-40 102 A 110 110 0 0 1 0 -110 L 0 -80 A 80 80 0 0 0 -29 74 Z" fill="#66bb6a"/>
+  </g>
+  <g fill="#e6ecff" font-family="Outfit, sans-serif" font-size="14">
+    <rect x="380" y="40" width="12" height="12" fill="#7aa2ff" rx="3"/>
+    <text x="400" y="51">Recovered</text>
+    <rect x="380" y="64" width="12" height="12" fill="#4dd0e1" rx="3"/>
+    <text x="400" y="75">In Process</text>
+    <rect x="380" y="88" width="12" height="12" fill="#66bb6a" rx="3"/>
+    <text x="400" y="99">Output</text>
+  </g>
+</svg>
+
+
+

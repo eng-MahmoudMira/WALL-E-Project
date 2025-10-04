@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" rx="16" fill="#0b1020"/>
+  <g stroke="#24304a" stroke-width="1">
+    <line x1="60" y1="320" x2="560" y2="320"/>
+    <line x1="60" y1="260" x2="560" y2="260"/>
+    <line x1="60" y1="200" x2="560" y2="200"/>
+    <line x1="60" y1="140" x2="560" y2="140"/>
+  </g>
+  <g>
+    <rect x="90" y="220" width="50" height="100" fill="#7aa2ff" rx="6"/>
+    <rect x="190" y="160" width="50" height="160" fill="#4dd0e1" rx="6"/>
+    <rect x="290" y="120" width="50" height="200" fill="#66bb6a" rx="6"/>
+    <rect x="390" y="190" width="50" height="130" fill="#ffb74d" rx="6"/>
+    <rect x="490" y="250" width="50" height="70" fill="#ef5350" rx="6"/>
+  </g>
+  <g fill="#a9b6d6" font-family="Outfit, sans-serif" font-size="12">
+    <text x="100" y="340">Plastics</text>
+    <text x="200" y="340">Metals</text>
+    <text x="300" y="340">Fabrics</text>
+    <text x="400" y="340">Food</text>
+    <text x="500" y="340">Foam</text>
+  </g>
+</svg>
+
+
+

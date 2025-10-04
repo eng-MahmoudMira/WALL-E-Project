@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7aa2ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4dd0e1" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="24" fill="#0b1020"/>
+  <rect x="12" y="12" width="1176" height="651" rx="20" fill="url(#g)" stroke="rgba(255,255,255,0.08)"/>
+  <g fill="none" stroke="#a9b6d6" stroke-opacity="0.6">
+    <rect x="120" y="160" width="180" height="120" rx="10"/>
+    <rect x="460" y="160" width="220" height="120" rx="10"/>
+    <rect x="840" y="160" width="220" height="120" rx="10"/>
+    <rect x="260" y="400" width="240" height="110" rx="10"/>
+    <rect x="720" y="400" width="240" height="110" rx="10"/>
+    <path d="M300 220 H460" marker-end="url(#arrow)"/>
+    <path d="M680 220 H840" marker-end="url(#arrow)"/>
+    <path d="M560 280 V400" marker-end="url(#arrow)"/>
+    <path d="M960 280 V400" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#a9b6d6"/>
+    </marker>
+  </defs>
+  <g font-family="Outfit, sans-serif" font-size="26" fill="#e6ecff" text-anchor="middle">
+    <text x="210" y="225">Input</text>
+    <text x="570" y="225">Sorting</text>
+    <text x="950" y="225">Processing</text>
+    <text x="380" y="465">Recovery</text>
+    <text x="840" y="465">Output</text>
+  </g>
+  <text x="600" y="80" fill="#e6ecff" fill-opacity="0.8" font-family="Outfit, sans-serif" font-size="34" text-anchor="middle">Recycling System Design (Placeholder)</text>
+</svg>
+
+
+
